@@ -17,6 +17,10 @@
 		3D5626F32175C16D00BF6CB5 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5626F22175C16D00BF6CB5 /* Product.swift */; };
 		3D5626F82175CC6000BF6CB5 /* CeldaProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5626F72175CC6000BF6CB5 /* CeldaProduct.swift */; };
 		3D5626FA2175D33D00BF6CB5 /* DetalleProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5626F92175D33D00BF6CB5 /* DetalleProductoController.swift */; };
+		3D6105C52175FC90000E3128 /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6105C42175FC90000E3128 /* Comentario.swift */; };
+		3D6105C92175FE21000E3128 /* ComentarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6105C82175FE21000E3128 /* ComentarioController.swift */; };
+		3D6105CD2176083D000E3128 /* CeldaComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6105CC2176083D000E3128 /* CeldaComentario.swift */; };
+		3D6105D021760A98000E3128 /* DetalleComentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6105CF21760A98000E3128 /* DetalleComentario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		3D5626F22175C16D00BF6CB5 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3D5626F72175CC6000BF6CB5 /* CeldaProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaProduct.swift; sourceTree = "<group>"; };
 		3D5626F92175D33D00BF6CB5 /* DetalleProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoController.swift; sourceTree = "<group>"; };
+		3D6105C42175FC90000E3128 /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		3D6105C82175FE21000E3128 /* ComentarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentarioController.swift; sourceTree = "<group>"; };
+		3D6105CC2176083D000E3128 /* CeldaComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComentario.swift; sourceTree = "<group>"; };
+		3D6105CF21760A98000E3128 /* DetalleComentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleComentario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +142,9 @@
 		3D5626EE2175A8EB00BF6CB5 /* ControllersProducto */ = {
 			isa = PBXGroup;
 			children = (
-				3D5626C22175A6B600BF6CB5 /* ProductoViewController.swift */,
-				3D5626F92175D33D00BF6CB5 /* DetalleProductoController.swift */,
-				3D5626F72175CC6000BF6CB5 /* CeldaProduct.swift */,
+				3D6105CE2176093A000E3128 /* Tables */,
+				3D6105D121760AA4000E3128 /* Detalle */,
+				3D6105CB21760821000E3128 /* Celdas */,
 			);
 			name = ControllersProducto;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				3D5626F22175C16D00BF6CB5 /* Product.swift */,
+				3D6105C42175FC90000E3128 /* Comentario.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -164,6 +173,33 @@
 				3D5626C72175A6B700BF6CB5 /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D6105CB21760821000E3128 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				3D5626F72175CC6000BF6CB5 /* CeldaProduct.swift */,
+				3D6105CC2176083D000E3128 /* CeldaComentario.swift */,
+			);
+			name = Celdas;
+			sourceTree = "<group>";
+		};
+		3D6105CE2176093A000E3128 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				3D5626C22175A6B600BF6CB5 /* ProductoViewController.swift */,
+				3D6105C82175FE21000E3128 /* ComentarioController.swift */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+		3D6105D121760AA4000E3128 /* Detalle */ = {
+			isa = PBXGroup;
+			children = (
+				3D5626F92175D33D00BF6CB5 /* DetalleProductoController.swift */,
+				3D6105CF21760A98000E3128 /* DetalleComentario.swift */,
+			);
+			name = Detalle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +333,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6105C52175FC90000E3128 /* Comentario.swift in Sources */,
+				3D6105D021760A98000E3128 /* DetalleComentario.swift in Sources */,
 				3D5626C32175A6B600BF6CB5 /* ProductoViewController.swift in Sources */,
 				3D5626C12175A6B600BF6CB5 /* AppDelegate.swift in Sources */,
+				3D6105CD2176083D000E3128 /* CeldaComentario.swift in Sources */,
 				3D5626F32175C16D00BF6CB5 /* Product.swift in Sources */,
+				3D6105C92175FE21000E3128 /* ComentarioController.swift in Sources */,
 				3D5626F82175CC6000BF6CB5 /* CeldaProduct.swift in Sources */,
 				3D5626FA2175D33D00BF6CB5 /* DetalleProductoController.swift in Sources */,
 			);
