@@ -20,6 +20,7 @@ class ComentarioController : UIViewController , UITableViewDelegate, UITableView
         return celdaComentario!
     }
     
+    @IBOutlet weak var tvComentarios: UITableView!
     let comentarios : [Comentario] =
         [Comentario(nombre: "Pablo Sanchez", comment: "Quiere perico mija?", nombreComentario: "Pablo Sanchez", escribirComentario: "Quiere perrico mija?"),
          Comentario(nombre: "Benjamin Ortega", comment: "OOOOHHH SIIIIII", nombreComentario: "Benjamin Ortega", escribirComentario: "ooohhhsiiisisisisis")]
@@ -43,7 +44,6 @@ class ComentarioController : UIViewController , UITableViewDelegate, UITableView
     
     
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destino2 = segue.destination as! DetalleComentario
-    }
+
+    
 }
