@@ -13,18 +13,24 @@ class Comentario {
     
     var nombre : String
     var comment : String
-    var estrellas : Int
+    var nombreComentario : String
+    var escribirComentario : String
+    
+    
+    
     init () {
         nombre = ""
         comment = ""
-        estrellas = 0
+        nombreComentario = ""
+        escribirComentario = ""
         
     }
     
-    init (nombre : String, comment : String, estrellas : Int){
+    init (nombre : String, comment : String, nombreComentario : String, escribirComentario : String){
         self.nombre = nombre
         self.comment = comment
-        self.estrellas = estrellas
+        self.nombreComentario = nombreComentario
+        self.escribirComentario = escribirComentario
         
     }
     

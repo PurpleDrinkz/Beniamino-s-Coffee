@@ -6,6 +6,7 @@
 //  Copyright © 2018 Alumno. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 class ProductoViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
